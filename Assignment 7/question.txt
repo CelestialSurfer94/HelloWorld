@@ -1,0 +1,10 @@
+Q:
+is it alive?
+Q:
+is it feline?
+A:
+a cat
+A:
+a dog
+A:
+computer
