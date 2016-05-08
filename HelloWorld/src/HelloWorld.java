@@ -1,12 +1,15 @@
 
 public class HelloWorld {
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		System.out.println("HELLOOOOOO!!!!?????");
-		
-		for(int i = 0; i < 100; i++){
-			System.out.println("ELLLOOoooooo.....");
+
+		double n = Math.random();
+		while (n < 100) {
+			for (int i = 0; i < n/10; i++) {
+				System.out.println("ELLLOOoooooo.....");
+			}
+			n = n /10;
 		}
 	}
-	
-	
+
 }
