@@ -2,14 +2,8 @@
 public class HelloWorld {
 	public static void main(String[] args) {
 		System.out.println("HELLOOOOOO!!!!?????");
-
-		double n = Math.random();
-		while (n < 100) {
-			for (int i = 0; i < n/10; i++) {
-				System.out.println("ELLLOOoooooo.....");
-			}
-			n = n /10;
-		}
+		System.out.println("This stuff is pretty cool once you figure it out");
+		System.out.println("I should add all of my java projects");
 	}
 
 }
